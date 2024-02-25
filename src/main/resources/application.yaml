@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.17.0.1/target_finder?createDatabaseIfNotExist=true
+    username: root
+    password: toor
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
